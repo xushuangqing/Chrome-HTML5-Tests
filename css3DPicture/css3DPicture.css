@@ -1,0 +1,64 @@
+html
+{
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+
+    perspective: 1200px;
+    -webkit-perspective: 1200px; /* Safari 和 Chrome */
+}
+
+#container
+{
+    perspective: 1200px;
+    -webkit-perspective: 1200px; /* Safari 和 Chrome */
+
+    height: 100%;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+}
+
+.origin
+{
+    visibility: hidden;
+    position: absolute;
+}
+
+#poly
+{
+    position: relative;
+    height: 0px;
+    width: 0px;
+    top: 100px;
+    margin: auto;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    text-align: center;
+    align-content: center;
+}
+
+.face
+{
+    position: absolute;
+}
+
+.wrapper
+{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.img
+{
+    overflow: hidden;
+    opacity: 0.9;
+}
